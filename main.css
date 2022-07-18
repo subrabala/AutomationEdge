@@ -1,0 +1,209 @@
+.first_page{
+    
+    background-color: #f87219;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.headbuttons{
+    background-color: #1c1f2a;
+}
+.mini{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: #1c1f2a;
+    color: #d3d3d3;
+    border: 0;
+    padding: 1px;
+}
+.mini:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.buttons {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #1c1f2a;
+    color:aliceblue;
+    padding : 10px 0px 0px; /* top,right, bottom,left*/
+    font-weight: normal;
+    margin: 0px;
+    font-weight: 200;
+}
+.button1, 
+.button2,
+.button3,
+.button4, 
+.button5{
+    padding: 16px 16px 16px 16px;
+    font-size: 15px;
+    background-color: #1c1f2a;
+    color: white;
+    opacity: 87%;
+    border: #1c1f2a;
+    width: max-content;
+}
+.red{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #f87219;
+    padding: 18px 20px ;
+    font-weight: normal;
+    border-radius: 4px;
+    padding: 10px;
+    border: #f87219;
+}
+.red:hover{
+    background-color: #1d4687;
+    transition: background-color 0.2s linear;
+    animation-delay: 1s;
+    cursor: pointer;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover{
+    background-color: #111;
+    opacity: 80%;
+    cursor: pointer;
+}
+.texthead{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 67px;
+    left:64px;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    width: 450px;
+    height: 200px;
+}
+
+.desc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-top: 12px;
+    margin-bottom: 50px; 
+    width: 560px;
+    height: 100px;
+    position: relative;
+    color: rgb(255, 255, 250);
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 85%;
+}
+
+.subbutton{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    margin: 5px 10px 0px 64px;
+    color: rgb(255, 255, 250);
+    background-color: #f87219;
+    font-weight: 700;
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 3px;
+}
+
+.subbutton:hover{
+    background-color: white;
+    transition: background-color 0.2s linear;
+    color: #f87219;
+    border: #f87219 2px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.subbutton1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #f87219;
+    background-color: white;
+    font-weight: 700;
+    padding:10px;
+    border: #f87219 1px solid;
+    border-radius: 3px;
+}
+.subbutton1:hover{
+    background-color: #f87219;
+    transition: background-color 0.2s linear;
+    color: white;
+    border: white 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.girl{
+    height: auto;
+    width: 500px;
+}
+.logo{
+   position: relative;
+   bottom: 927px; /*descrease in value, image lowers*/
+   left: 39px;
+}
+.down{
+    color: white;
+    width: 10px;
+    height: 10px;
+
+}
+.search{
+    color: white;
+    padding: 25px 45px 10px 20px;
+}
+
+.chat{
+    position: sticky;
+    left: 1185px;
+    bottom: 20px;
+    color: #d3d3d3;
+    width: 60px;
+    height:60px;
+    background-color:  #f87219;
+    background: linear-gradient(to left, #ff3f5297 , rgba(246, 192, 91, 0.91));
+    padding: 3px;
+    border-radius: 40px;
+    border: 0px;
+    box-shadow: 0px 0px 10px #34394baf ;    
+}
+
+.chat:hover{
+    box-shadow :0px 0px 14px #14161daf ; 
+    cursor: pointer;
+}
+
+h2{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.row, .button-row{
+    display: flex;
+    flex-grow: 1;
+}
+.button-row{
+    background-color: #1c1f2a;
+}
+.row-content, .button-row-content{
+    flex-grow: 1;
+}
+.button-row-content{
+    padding: 10px 20px;
+}
+.row-image{
+    padding: 25px 50px;
+}
+
